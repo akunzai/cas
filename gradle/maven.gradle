@@ -153,13 +153,6 @@ def generatePom() {
             }
             repositories {
                 repository {
-                    id "jcenter"
-                    url "https://jcenter.bintray.com"
-                    releases {
-                        enabled true
-                    }
-                }
-                repository {
                     id "shib-release"
                     url "https://build.shibboleth.net/nexus/content/repositories/releases"
                     releases {
